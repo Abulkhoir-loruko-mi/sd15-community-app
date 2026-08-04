@@ -2,7 +2,7 @@
 A centralized web application built for 3MTT program participants and community managers. This platform solves the challenge of scattered communications by providing role-based access, track-specific resource filtering, and a unified event dashboard.
 ### 🚀 Live Demo & Walkthrough
  * **Live Application:** [https://sd15-community-app.vercel.app/login]
- * **Demo Video (2-3 mins):** [Video Link Here]
+ * **Demo Video (2-3 mins):** [https://youtube.com/shorts/vV-pMUiuR8w?si=DRMH17Q7n_rp-B1R]
 ### 🛠 Tech Stack
  * **Frontend:** Next.js (App Router), React, Tailwind CSS
  * **Backend & Database:** Supabase (PostgreSQL)
