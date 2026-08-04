@@ -40,8 +40,8 @@ npm install
 ```
  4. Create a .env.local file in the root directory and add your Supabase credentials:
 ```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+NEXT_PUBLIC_SUPABASE_URL=https://xpqfrmlbdbkqfmzchaqp.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhwcWZybWxiZGJrcWZtemNoYXFwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU2MzE0MDEsImV4cCI6MjEwMTIwNzQwMX0.VL4FH9C0SiY9xVkKJmHnnqhtgwob-fg69LddTDmrQaI
 
 ```
  5. Start the development server:
