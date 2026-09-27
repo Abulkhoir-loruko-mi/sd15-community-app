@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## SD-15 Community Org App
+A centralized web application built for 3MTT program participants and community managers. This platform solves the challenge of scattered communications by providing role-based access, track-specific resource filtering, and a unified event dashboard.
+### 🚀 Live Demo & Walkthrough
+ * **Live Application:** [https://sd15-community-app.vercel.app/login]
+ * **Demo Video (2-3 mins):** [https://youtube.com/shorts/vV-pMUiuR8w?si=DRMH17Q7n_rp-B1R]
+### 🛠 Tech Stack
+ * **Frontend:** Next.js (App Router), React, Tailwind CSS
+ * **Backend & Database:** Supabase (PostgreSQL)
+ * **Authentication:** Supabase Auth (Email/Password)
+ * **Deployment:** Vercel
+### ✨ Core MVP Features
+ * **Role-Based Access Control (RBAC):** Distinct permissions for "Students" (Fellows) and "Admins" (Community Managers).
+ * **Track-Specific Dashboards:** Announcements and events are automatically filtered using Row Level Security (RLS) so users only see content relevant to their specific learning track.
+ * **Global Broadcasting:** Admins can publish platform-wide announcements visible to all cohorts.
+ * **Event Management:** A dedicated scheduling interface to keep track of upcoming classes, deadlines, and community meetups.
+### 🔑 Test Credentials for Evaluators
+To explore the role-based routing and features, please use the following credentials on the live application:
+**Admin Account (Community Manager view):**
+ * **Email:** admin@3mtt.com
+ * **Password:** password123
+**Student Account (Software Development Track view):**
+ * **Email:** student@3mtt.com
+ * **Password:** password123
+### 💻 Local Setup Instructions
+To run this repository locally on your machine, follow these steps:
+ 1. Clone the repository:
+```bash
+git clone [https://github.com/Abulkhoir-loruko-mi/sd15-community-app.git]
 
-## Getting Started
+```
+ 2. Navigate into the project directory:
+```bash
+cd sd15-community-app
 
-First, run the development server:
+```
+ 3. Install the dependencies:
+```bash
+npm install
 
+```
+ 4. Create a .env.local file in the root directory and add your Supabase credentials:
+```env
+NEXT_PUBLIC_SUPABASE_URL=https://xpqfrmlbdbkqfmzchaqp.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhwcWZybWxiZGJrcWZtemNoYXFwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU2MzE0MDEsImV4cCI6MjEwMTIwNzQwMX0.VL4FH9C0SiY9xVkKJmHnnqhtgwob-fg69LddTDmrQaI
+
+```
+ 5. Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open http://localhost:3000 in your browser to view the application.
+### 👨‍💻 Author
+**Oladeji Sooliu Ayantunji**
+3MTT Software Development Fellow
